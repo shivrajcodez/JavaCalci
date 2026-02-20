@@ -1,68 +1,58 @@
 🧮 Java Console Calculator
+<p align="center"> <b>A simple yet robust Command Line Calculator built using Java</b> </p> <p align="center"> <img src="https://img.shields.io/badge/Language-Java-orange?style=for-the-badge&logo=java" /> <img src="https://img.shields.io/badge/Platform-CLI-blue?style=for-the-badge" /> <img src="https://img.shields.io/badge/Status-Completed-brightgreen?style=for-the-badge" /> <img src="https://img.shields.io/badge/Level-Beginner--Friendly-success?style=for-the-badge" /> </p>
+📌 About The Project
 
-A robust and user-friendly Command Line Calculator built in Java that performs basic arithmetic operations with proper input validation and exception handling.
-This project demonstrates core Java concepts including loops, conditionals, switch statements, and exception handling.
+This is a Java-based Console Calculator that performs essential arithmetic operations with proper input validation and exception handling.
+The project showcases fundamental Java programming concepts and clean CLI interaction.
 
-📌 Features
+✨ Features
 
-Perform arithmetic operations:
-Addition (+)
-Subtraction (-)
-Multiplication (*)
-Division (/) with zero-division handling
-Modulus (%)
+➕ Addition
+➖ Subtraction
+✖ Multiplication
+➗ Division (with zero-division handling)
 
-Continuous execution using loop until user exits
-Graceful handling of invalid input
-Clean and structured console interaction
+📊 Modulus
 
-🛠 Tech Stack
+🔁 Continuous execution loop
+⚠ Exception handling for invalid input
 
-Language: Java
-Core Concepts Used:
-while loop
-switch statement
-try-catch exception handling
-Scanner class for user input
+🛠 Built With
+
+Java
+Scanner (User Input Handling)
+while Loop
+switch Statement
+try-catch Exception Handling
 
 💻 Sample Execution
+
 Press 1: Run Program
 Press 0: Exit From Program
 
 1
-Enter First Number: 15
-Enter Operator: + , - , * , / , % : /
-Enter Second Number: 3
-15.0/3.0 = 5.0
+Enter First Number: 25
+Enter Operator: + , - , * , / , % : -
+Enter Second Number: 5
+25.0-5.0 = 20.0
 
-🧠 How It Works
+🧠 Concepts Demonstrated
 
-The program runs inside an infinite loop.
-User selects:
-1 to perform calculation
-0 to exit
-Takes two floating-point numbers and an operator.
-Uses a switch statement to determine the operation.
-Uses try-catch to handle invalid inputs.
-Prevents division by zero with validation logic.
+Core Java Fundamentals
+Control Flow Statements
+Exception Handling
+User Input Validation
+Program Looping Logic
 
-🚀 Possible Enhancements
+🔮 Future Improvements(if needed)
 
-Implement a GUI using Java Swing or JavaFX
-Add advanced mathematical operations
-Maintain calculation history
-Convert to a web-based calculator
-
-📚 Learning Objectives
-
-This project helps in understanding:
-Java fundamentals
-Control flow statements
-Exception handling
-User input management
-Basic software structure for CLI applications
+Add advanced operations (power, square root, etc.)
+Add calculation history feature
+Convert to GUI using Java Swing / JavaFX
+Deploy a web-based version
 
 👨‍💻 Author
 
-shivrajcodez
-Computer Engineering Student
+Shivraj
+💻 Computer Engineering
+🔗 GitHub: https://github.com/shivrajcodez
